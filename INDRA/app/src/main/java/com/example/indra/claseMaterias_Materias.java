@@ -38,7 +38,7 @@ public class claseMaterias_Materias extends Activity {
         startActivity(mme);
     }
 
-    public void mostrar_Modificar(View Modificar)
+    public void mostrarMMModificar(View Mod)
     {
         Intent mmm = new Intent(this, claseMaterias_Materias_Modificar.class);
         startActivity(mmm);
